@@ -1,0 +1,123 @@
+body {
+    background-color: #b8c1c1;
+    margin: 20px;
+    font-family:'Times New Roman', serif;;
+  }
+  #logo{
+    font-family: 'Times New Roman', serif;
+    margin: 1rem; 
+    text-align: center;
+
+}
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  form {
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: relative
+  }
+  
+  /* Add some margins for each label */
+  form label{
+    margin: 5px 10px 5px 0px;
+  }
+  
+  /* Style the input fields */
+  form input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  
+  /* Style the submit button */
+  form input[type=submit] {
+    padding: 10px 20px;
+    background-color: #4d4d4d ;
+    border: 1px solid #ddd;
+    color: white;
+    margin-top: 10px;
+  }
+  button{
+    background-color: #4d4d4d ;
+    border: none;
+    color: white;
+    position: absolute;
+    right: -25px;
+    top: -25px;
+
+  }
+
+  form label[for=available]{
+    color: lightgray;
+    text-align: center;
+    margin: auto
+
+  }
+
+
+  
+  .book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* display: grid;
+    grid-template-areas: 
+      'book book'
+      'book book'
+      'book book';
+    grid-template-columns: 3fr 3fr; */
+  }
+  
+  .book {
+    display: flex;
+    flex-direction: column;
+    grid-area: book;
+
+    
+    
+    width: 172px;
+    background-color: #4d4d4d;
+    padding: 10px;
+    margin:20px;
+  }
+  
+  .book p, i{
+    color: lightgray;
+    list-style: none;
+    margin:3px;
+  }
+  
+  h2 {
+    color: lightgrey;
+    font-size: large;
+    text-align: center;
+  }
+  
+  h3, h4, h5 {
+    margin: 5px;
+    color:rgb(71, 71, 71);
+    text-align: center;
+    font-size: medium;
+  }
+
+  img{
+    width: 172px;
+    height: 270px
+  }
+  .add{
+    margin: 20px;
+  }
+
+  #delete{
+    text-align: right;
+  }

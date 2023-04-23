@@ -1,0 +1,101 @@
+
+<!-- saved from url=(0022)http://localhost:4999/ -->
+<html><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="./Library_files/style.css">
+      <title>Library</title>
+    </head>
+    <body>
+        
+    <h1 id="logo"><a href="http://localhost:4999/">Library</a></h1>
+
+  <div class="book-container">
+    
+    <div class="book">
+     <form action="http://localhost:4999/" method="post">
+      <label for="available">Available</label>
+      <input type="checkbox" name="available" value="True">
+      </form>   
+      <form action="http://localhost:4999/remove/0" method="post">
+        <input type="hidden" name="delete" value="0">
+        <button type="submit">X</button>
+      </form>
+      <a href="http://localhost:4999/book/0">
+      <img src="./Library_files/0.jpeg">
+      <h2>Chuck Palahniuk : Diary</h2>
+      </a>
+      <h3><i>fiction</i></h3>
+          
+    </div>
+    
+    <div class="book">
+     <form action="http://localhost:4999/" method="post">
+      <label for="available">Available</label>
+      <input type="checkbox" name="available" value="False">
+      </form>   
+      <form action="http://localhost:4999/remove/1" method="post">
+        <input type="hidden" name="delete" value="1">
+        <button type="submit">X</button>
+      </form>
+      <a href="http://localhost:4999/book/1">
+      <img src="./Library_files/1.jpeg">
+      <h2>Stanislav Lem : Solaris</h2>
+      </a>
+      <h3><i>science-fiction</i></h3>
+          
+    </div>
+    
+    <div class="book">
+     <form action="http://localhost:4999/" method="post">
+      <label for="available">Available</label>
+      <input type="checkbox" name="available" value="True">
+      </form>   
+      <form action="http://localhost:4999/remove/2" method="post">
+        <input type="hidden" name="delete" value="2">
+        <button type="submit">X</button>
+      </form>
+      <a href="http://localhost:4999/book/2">
+      <img src="./Library_files/2.jpeg">
+      <h2>Jorje Amado : Jubiabá</h2>
+      </a>
+      <h3><i>fiction</i></h3>
+          
+    </div>
+    
+    <div class="book">
+     <form action="http://localhost:4999/" method="post">
+      <label for="available">Available</label>
+      <input type="checkbox" name="available" value="False">
+      </form>   
+      <form action="http://localhost:4999/remove/3" method="post">
+        <input type="hidden" name="delete" value="3">
+        <button type="submit">X</button>
+      </form>
+      <a href="http://localhost:4999/book/3">
+      <img src="./Library_files/3.jpeg">
+      <h2>The Dispossessed : Ursula K LeGuin</h2>
+      </a>
+      <h3><i>science-fiction</i></h3>
+          
+    </div>
+    
+    </div>
+  
+
+    <h1 class="add">Add Books</h1>
+<form action="http://localhost:4999/" method="post">
+    <label for="author">Author's name</label>
+    <input type="text" name="author" id="author">
+    <label for="title">Title</label>
+    <input type="text" name="title" id="title">
+    <label for="genre">Genre</label>
+    <input type="text" name="genre" id="genre">
+    <label for="image">Upload Image</label>
+    <input type="file" id="book_image" name="image">
+    <input type="submit" value="Add Book">
+    
+  
+
+  </form>
+
+    
+</body></html>
